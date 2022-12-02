@@ -1,0 +1,125 @@
+body{
+  font-family:sans-serif;
+  color: #86222b;
+  background-image: linear-gradient(90deg, #0a7469,#0bc5b1,#33f8e2);
+  font-size: 28px;
+}
+.header img{
+  height:200px;
+  width:200px;
+  border-radius: 50%;
+  margin-left: 0;
+  padding-left: 0;
+  float:left;
+}
+.header{
+  background-color: #72f284;
+  height:auto;
+  width:100%;
+  text-decoration: underline;
+  text-decoration-style:double;
+  font-size: 32px;
+  margin-left: 0;
+  padding-left: 0;
+  position:fixed;
+}
+span{
+  text-emphasis-style: triangle;
+  text-emphasis-color: yellow;
+  background-color: #1c5a31;
+  -webkit-background-clip: text;
+}
+h1{
+  height:auto;
+  width:auto;
+  background:linear-gradient(90deg, red,tomato,orange,yellow,blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 20px;
+  padding: 20px;
+  padding-left: 5%;
+  border-radius: 5px;
+  text-decoration: underline;
+  //font-family: Lucida Calligraphy;
+  float:center;
+}
+
+.links{
+  color:Black;
+  padding: 0;
+  background-color:black;
+  border-radius: 2%;
+  margin-right: 0;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+a {
+  text-decoration: none;
+  margin-right:10%;
+  color:green;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.links li{
+  list-style: none;
+  padding: 20px;
+}
+
+.links li a{
+  min-width: 60px;
+  min-height: 40px;
+  display:block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.desc{
+  text-decoration: italic;
+  background-image: linear-gradient(120deg, white, grey);
+  border-radius: 15px;
+  color: black;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.desc li{
+  color:tomato;
+}
+.navigation{
+  //position: fixed;
+  background-color: black;
+  color:white;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  height:70px;
+  min-width: 100%;
+  border-radius: 10px;
+  width: auto;
+  padding: 20px;
+}
+.navigation h3{
+  float: right;
+  margin-right:20px;
+  background:linear-gradient(90deg, red,yellow,orange,blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.order{
+  padding:5%;
+}
+.order{
+  margin: 15px;
+  background-color: aqua;
+  border: 7px solid antiquewhite;
+  color: slateblue;
+}

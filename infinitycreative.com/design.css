@@ -1,0 +1,178 @@
+body{
+  background-image: linear-gradient(90deg,#0d898b,#13dadd,#96f8fa);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+  font-size: 25px;
+}
+.header img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: 0;
+  padding-left: 0;
+  float:left;
+}
+.header{
+  background-color: #72f284;
+  height:auto;
+  width: 100%;
+  text-decoration: underline;
+  text-decoration-style:double;
+  //font-size: 32px;
+  margin-left: 0;
+  padding-left: 0;
+  position:fixed;
+}
+h1{
+  height:auto;
+  width:auto;
+  background:linear-gradient(90deg, red,tomato,orange,yellow,blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  //margin-left: 20px;
+  //padding: 20px;
+  //padding-left: 5%;
+  border-radius: 5px;
+  text-decoration: underline;
+  //font-family: Lucida Calligraphy;
+  float:center;
+}
+.navigation{
+  margin-top: -10%;
+  background: rgb(10, 147, 44);
+  /* /background-image: linear-gradient(120deg, black , orange ,green); */
+  display:flex;
+  font-weight: 400;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  min-width: 60px;
+  min-height: 40px;
+  position: fixed;
+  //opacity: 90%;
+  font-size: 32px;
+  border: 20px solid rgb(10, 147, 44);
+  }
+
+.navigation a{
+  margin-right: 20px;
+  text-decoration: none;
+  color: blue;
+  padding: 30px;
+}
+
+a:hover{
+  color:white;
+  text-decoration: underline;
+}
+.navigation li a{
+  min-width: 60px;
+  min-height: 40px;
+}
+
+.desc{
+  height:auto;
+  width:auto;
+  padding:20px;
+  //background-image: linear-gradient(120deg,white,grey,darkgrey);
+  background-color: orange;
+  opacity:40%;
+  color: #d21349;
+  border-radius: 10px;
+  float:right;
+  margin-left: 70%;
+  margin-top:-10%;
+  position: fixed;
+}
+.desc:hover{
+  background-color: orange;
+  opacity: 80%;
+  color:crimson;
+}
+.contact{
+  background-color: black;
+  width: 100%;
+  height:auto;
+  color:rgb(47, 29, 11);
+  padding: 30px;
+}
+.best_note{
+  margin-top: 20px;
+  margin-left: 10;
+  width: auto;
+  height: auto;
+  background-color: skyblue;
+  border-color: yellow;
+  padding: 20px;
+  border-radius: 30%;
+  text-align: center;
+  word-wrap: break-word;
+  width:60%;
+
+}
+
+.best_note span{
+  text-decoration-style: underline;
+  background-image: linear-gradient(120deg, green,orange,black);
+  text-transform:uppercase;
+  text-shadow: 20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+.tab{
+  margin: 30px;
+
+}
+table{
+  margin-top: 5%;
+}
+td img{
+  padding:20px;
+  height: 60%;
+  width: 60%;
+  margin: 30px;
+}
+td:hover{
+  background-image: linear-gradient(90deg,green,blue);
+}
+td{
+  background-color: grey;
+  overflow: wrap;
+}
+tr{
+  text-align: left;
+}
+button{
+  background-color: skyblue;
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+}
+.tab label{
+  background-color: rgb(21, 174, 220);
+  border: 1px solid rgb(122, 33, 33);
+  //color: #000;
+  padding: 10px 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 15px 15px;
+  cursor: pointer;
+}
+.contact input{
+  background-color: white;
+  opacity: 80%;
+  color:darkred;
+  font-size: 24px;
+}
+.contact{
+  font-size: 22px;
+}
+legend{
+  color:crimson;
+  border: 5px solid sienna;
+  width: 60%;
+  padding: 10px;
+}

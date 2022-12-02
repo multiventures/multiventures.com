@@ -1,0 +1,91 @@
+body{
+  background-image: linear-gradient(90deg, green, red, crimson, tomato);
+  color: #FFFDD0;
+  font-size: 25px;
+}
+.header img{
+  height:150px;
+  width:150px;
+  border-radius: 50%;
+  margin-left: 0;
+  padding-left: 0;
+  float:left;
+}
+.header{
+  background-color: #72f284;
+  height:auto;
+  width:100%;
+  text-decoration: underline;
+  text-decoration-style:double;
+  font-size: 32px;
+  margin-left: 0;
+  padding-left: 0;
+  position:fixed;
+}
+.nav_pages{
+  background-color: black;
+  color: blue;
+  width: 100%;
+  padding:20px;
+}
+.nav_pages a{
+  color:green;
+  text-decoration: none;
+}
+.nav_pages a:hover{
+  background-color: skyblue;
+  text-decoration: underline;
+}
+.multiventure_desc{
+  //background-image:url("../bg3.jpg");
+  background-color: #0fb1cf;
+  border-radius: 7%;
+  padding: 10px;
+  color:black;
+  width:45%;
+  padding:20px;
+}
+.img_ceo{
+  float: right;
+  padding: 10px;
+  //margin-top: 14%;
+  margin-left: 10%;
+  border-radius: 50%;
+  height: 255px;
+  width: 235px;
+  object-fit: cover;
+}
+img:hover{
+  border:12px,green;
+  background-color: skyblue;
+  object-position:5px 10%;
+}
+img{
+  object-fit: cover;
+  object-position:5px 10%;
+  image-resolution: 10%;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.partners{
+  background-image: linear-gradient(90deg,green,orange,white);
+  width: 45%;
+  margin:10px;
+  padding: 10px;
+  border-radius: 7px;
+  float:right;
+}
+.CEO2{
+  float:right;
+  padding: 10%;
+}
+.Dailystar{
+  margin: 23px;
+  margin-left: 30%;
+  width: 45%;
+  background-image: linear-gradient(120deg,#108f7e,#3fc34b,tomato);
+  padding: 20px;
+  border-radius: 15px;
+}
